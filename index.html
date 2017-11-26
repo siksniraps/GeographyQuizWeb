@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       body, html, #content {
+	   padding: 0;
+           margin: 0;
+           height: 100%;
+           width: 100%;
+       }
+       #map {
+        height: 100%;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+	<div id="map"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOcDuWd5fGbin9ve0p5ASR1h3eVemOCdQ&&callback=initMap"></script>
+  </body>
+</html>
